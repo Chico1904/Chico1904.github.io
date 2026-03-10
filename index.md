@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Francisco h"
+title: "Francisco h" #changes Main title (below top line) and top right word
 ---
 
 ## About Me
