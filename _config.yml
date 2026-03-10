@@ -15,7 +15,7 @@ author:
 #   THEME
 # =============================================
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: "contrast" #plum, neon
+minimal_mistakes_skin: "neon" #contrast, mint, plum
 
 # =============================================
 #   PLUGINS
