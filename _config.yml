@@ -15,9 +15,7 @@ baseurl: ""
 # =============================================
 #   THEME
 # =============================================
-theme: minima
-minima:
-  skin: dark  # auto | classic | dark | solarized | solarized-dark
+remote_theme: mmistakes/minimal-mistakes
 
 # =============================================
 #   NAVIGATION
