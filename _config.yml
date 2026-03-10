@@ -15,7 +15,7 @@ author:
 #   THEME
 # =============================================
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: "aqua" #contrast, mint, neon, plum | air, aqua, contrast, dark, dirt, mint, neon, plum, sunrise
+minimal_mistakes_skin: "air" #contrast, mint, neon, plum | air, aqua, contrast, dark, dirt, mint, neon, plum, sunrise
 
 # =============================================
 #   PLUGINS
