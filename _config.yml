@@ -2,32 +2,20 @@
 #   SITE SETTINGS
 # =============================================
 title: "Your Name"
-tagline: "Developer · Designer · Builder"
-description: >-
-  A short description of you or your site — shown in search results
-  and social previews.
-url: "https://chico1904.github.io/"
-baseurl: ""  # Leave empty for a user/org page; use "/repo-name" for project pages
+tagline: "Robotics Engineer"
+description: "Personal website of Your Name - Robotics Engineer."
+url: "https://chico1904.github.io"
+baseurl: ""
 
 author:
-  name: "Your Name"
-  email: "you@example.com"
-  github: "yourusername"
-  twitter: "yourhandle"       # Optional
-  linkedin: "yourprofile"     # Optional
+  name: "Francisco Miranda"
+  email: "franmira2003gmail.com"
+  github: "Chico1904"
 
 # =============================================
 #   THEME
 # =============================================
-# Popular GitHub Pages supported themes:
-#   minima | cayman | slate | minimal | hacker | leap-day | merlot
 theme: minima
-
-# Or use a remote theme (more options):
-# remote_theme: jekyll/minima
-# remote_theme: alshedivat/al-folio       # great for academics/portfolios
-# remote_theme: mmistakes/minimal-mistakes
-
 minima:
   skin: auto  # auto | classic | dark | solarized | solarized-dark
 
@@ -35,79 +23,23 @@ minima:
 #   NAVIGATION
 # =============================================
 header_pages:
-  - about.md
+  - index.md
   - projects.md
-  - blog.md
-  - contact.md
-
-# =============================================
-#   BLOG / POSTS
-# =============================================
-permalink: /blog/:year/:month/:day/:title/
-paginate: 5
-paginate_path: /blog/page:num/
-
-show_excerpts: true
+  - research.md
 
 # =============================================
 #   PLUGINS
 # =============================================
 plugins:
-  - jekyll-feed          # Generates /feed.xml
-  - jekyll-sitemap       # Generates /sitemap.xml
-  - jekyll-seo-tag       # Injects SEO meta tags
-  - jekyll-paginate      # Blog pagination
-  - jekyll-relative-links
-
-# =============================================
-#   SEO & SOCIAL
-# =============================================
-twitter:
-  username: yourhandle
-  card: summary
-
-social:
-  name: "Your Name"
-  links:
-    - https://github.com/yourusername
-    - https://linkedin.com/in/yourprofile
-
-google_analytics: "G-XXXXXXXXXX"   # Optional — remove if not using
-
-# =============================================
-#   COLLECTIONS (optional — for portfolios)
-# =============================================
-collections:
-  projects:
-    output: true
-    permalink: /projects/:name/
-
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: false
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "project"
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # =============================================
 #   MARKDOWN & SYNTAX HIGHLIGHTING
 # =============================================
 markdown: kramdown
 highlighter: rouge
-
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    css_class: "highlight"
-    block:
-      line_numbers: false
 
 # =============================================
 #   EXCLUSIONS
@@ -118,5 +50,4 @@ exclude:
   - README.md
   - LICENSE
   - .gitignore
-  - node_modules/
   - vendor/
