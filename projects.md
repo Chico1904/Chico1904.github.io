@@ -15,11 +15,10 @@ permalink: /projects/
 
 
 <!-- VIDEO (local file): place your .mp4 in /assets/videos/ and update the src -->
-<!--
 <video width="560" controls>
   <source src="/assets/videos/dd2419_collection_video" type="video/mp4">
 </video>
--->
+
 
 - **Tech stack:** ROS, Python, C++
 - **Status:** Completed
