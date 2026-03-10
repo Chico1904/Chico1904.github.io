@@ -22,6 +22,6 @@ permalink: /projects/
 
 - **Tech stack:** ROS, Python, C++
 - **Status:** Completed
-- [GitHub Repo]([https://github.com/chico1904/your-repo](https://github.com/Chico1904/ICP-Localization))
+- [GitHub Repo](https://github.com/Chico1904/ICP-Localization)
 
 ---
