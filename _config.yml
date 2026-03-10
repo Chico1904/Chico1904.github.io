@@ -1,23 +1,23 @@
 # =============================================
 #   SITE SETTINGS
 # =============================================
-title: "Your Name"
+title: "Francisco Miranda"
 tagline: "Robotics Engineer"
-description: "Personal website of Your Name - Robotics Engineer."
+description: ""
 url: "https://chico1904.github.io"
 baseurl: ""
 
-author:
-  name: "Francisco Miranda"
-  email: "franmira2003gmail.com"
-  github: "Chico1904"
+# author:
+#   name: "Francisco Miranda"
+#   email: "franmira2003gmail.com"
+#   github: "Chico1904"
 
 # =============================================
 #   THEME
 # =============================================
 theme: minima
 minima:
-  skin: auto  # auto | classic | dark | solarized | solarized-dark
+  skin: dark  # auto | classic | dark | solarized | solarized-dark
 
 # =============================================
 #   NAVIGATION
