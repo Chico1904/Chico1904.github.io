@@ -7,23 +7,15 @@ description: ""
 url: "https://chico1904.github.io"
 baseurl: ""
 
-# author:
-#   name: "Francisco Miranda"
-#   email: "franmira2003gmail.com"
-#   github: "Chico1904"
+author:
+  name: "Francisco Miranda"
+  github: "Chico1904"
 
 # =============================================
 #   THEME
 # =============================================
 remote_theme: mmistakes/minimal-mistakes
-
-# =============================================
-#   NAVIGATION
-# =============================================
-header_pages:
-  - index.md
-  - projects.md
-  - research.md
+minimal_mistakes_skin: "dark"  # air | aqua | contrast | dark | dirt | neon | mint | sunrise
 
 # =============================================
 #   PLUGINS
@@ -32,6 +24,19 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+# =============================================
+#   DEFAULTS
+# =============================================
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
 # =============================================
 #   MARKDOWN & SYNTAX HIGHLIGHTING
