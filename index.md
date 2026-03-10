@@ -5,7 +5,8 @@ title: "Francisco Miranda" #changes Main title (below top line) and top right wo
 
 ## About Me
 
-I am a Robotics Engineer with a passion for [your focus area, e.g. autonomous systems, manipulation, computer vision].
-I work on [brief description of what you do]. Previously, I [past experience or education].
+I am a Robotics graduate with interest in both hardware and software but have been focusing on Computer Vision (3D especially). 
+- Mechanical Engineering at IST (Lisbon)
+- Robotics at KTH (Stockholm)
 
-Feel free to reach out at [your email] or find me on [GitHub/LinkedIn].
+Feel free to reach out at [franmira2003@gmail.com]! :)
