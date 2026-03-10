@@ -9,4 +9,6 @@ I am a Robotics graduate with interest in both hardware and software but have be
 - Mechanical Engineering at IST (Lisbon)
 - Robotics at KTH (Stockholm)
 
-Feel free to reach out at [franmira2003@gmail.com]! :)
+Like to make stuff (currently building my first AMR)
+
+Feel free to reach out at franmira2003@gmail.com! :)
