@@ -1,61 +1,122 @@
-# Base configuration
-exclude: [".rvmrc", ".rbenv-version", "README.md", "changelog.md"]
+# =============================================
+#   SITE SETTINGS
+# =============================================
+title: "Your Name"
+tagline: "Developer · Designer · Builder"
+description: >-
+  A short description of you or your site — shown in search results
+  and social previews.
+url: "https://yourusername.github.io"
+baseurl: ""  # Leave empty for a user/org page; use "/repo-name" for project pages
+
+author:
+  name: "Your Name"
+  email: "you@example.com"
+  github: "yourusername"
+  twitter: "yourhandle"       # Optional
+  linkedin: "yourprofile"     # Optional
+
+# =============================================
+#   THEME
+# =============================================
+# Popular GitHub Pages supported themes:
+#   minima | cayman | slate | minimal | hacker | leap-day | merlot
+theme: minima
+
+# Or use a remote theme (more options):
+# remote_theme: jekyll/minima
+# remote_theme: alshedivat/al-folio       # great for academics/portfolios
+# remote_theme: mmistakes/minimal-mistakes
+
+minima:
+  skin: auto  # auto | classic | dark | solarized | solarized-dark
+
+# =============================================
+#   NAVIGATION
+# =============================================
+header_pages:
+  - about.md
+  - projects.md
+  - blog.md
+  - contact.md
+
+# =============================================
+#   BLOG / POSTS
+# =============================================
+permalink: /blog/:year/:month/:day/:title/
+paginate: 5
+paginate_path: /blog/page:num/
+
+show_excerpts: true
+
+# =============================================
+#   PLUGINS
+# =============================================
+plugins:
+  - jekyll-feed          # Generates /feed.xml
+  - jekyll-sitemap       # Generates /sitemap.xml
+  - jekyll-seo-tag       # Injects SEO meta tags
+  - jekyll-paginate      # Blog pagination
+  - jekyll-relative-links
+
+# =============================================
+#   SEO & SOCIAL
+# =============================================
+twitter:
+  username: yourhandle
+  card: summary
+
+social:
+  name: "Your Name"
+  links:
+    - https://github.com/yourusername
+    - https://linkedin.com/in/yourprofile
+
+google_analytics: "G-XXXXXXXXXX"   # Optional — remove if not using
+
+# =============================================
+#   COLLECTIONS (optional — for portfolios)
+# =============================================
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: false
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+# =============================================
+#   MARKDOWN & SYNTAX HIGHLIGHTING
+# =============================================
 markdown: kramdown
 highlighter: rouge
-permalink: pretty
 
-collections:
-  pages:
-    output: true
-    permalink: /:path/
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: "highlight"
+    block:
+      line_numbers: false
 
-# Title
-name: DCgov Guides Template
-
-# Author/Organization info to be displayed in the templates
-author:
-  name: Office of the Chief Technology Officer
-  url: http://octo.dc.gov
-
-# When using this template with a project (repository) page set the baseurl to '/project-name'
-# For user/organization pages set this to an empty string
-# When working locally use jekyll serve --baseurl '' so that you can view everything at localhost:4000
-# See http://jekyllrb.com/docs/github-pages/ for more info
-baseurl: '/guides-template'
-
-# Point the logo URL at a file in your repo or hosted elsewhere by your organization
-logourl: /assets/img/dc_logo.png
-logoalt: The D.C. flag
-
-# Navigation
-# List links that should appear in the site sidebar here
-navigation:
-- text: Introduction
-  internal: true
-  url: ./
-- text: Add a new page
-  internal: true
-  url: add-a-new-page
-- text: Configure the Guide
-  internal: true
-  url: configure-the-guide
-- text: GitHub Setup
-  internal: true
-  url: github
-- text: Create a Glossary
-  glossary: true
-- text: Edit this Repo
-  internal: false
-  url: https://github.com/DCgov/guides-template
-
-# Repo list
-# List repos that you would like to appear on the homepage here
-repos:
-- name: guides-template
-  description: 
-  url: https://github.com/DCgov/guides-template
-
-google_analytics_ua: 
-
-# Style Variables
-brand_color: "#DA253B"
+# =============================================
+#   EXCLUSIONS
+# =============================================
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - .gitignore
+  - node_modules/
+  - vendor/
