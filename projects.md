@@ -14,9 +14,9 @@ permalink: /projects/
 <!-- IMAGE: replace the src with your image path, e.g. /assets/images/project1.jpg  ![Project 1 Screenshot](/assets/images/project1-placeholder.png) -->
 
 
-- **Tech stack:** PyTorch, C++, Matlab, Fusion360
-- **Status:** Ongoing
-- [Finger count detection model]([https://github.com/Chico1904/ICP-Localization](https://github.com/Chico1904/HaGir_CNN))
+**Tech stack:** PyTorch, C++, Matlab, Fusion360
+**Status:** Ongoing
+Check the GitHub repo of the [finger count detection model]([https://github.com/Chico1904/ICP-Localization](https://github.com/Chico1904/HaGir_CNN))
   
 ## Robotics and Autonomous Systems Project Course (DD2419 KTH course)
 
