@@ -24,7 +24,7 @@ Check the GitHub repo of the [finger count detection model]([https://github.com/
 - An exploration phase, consisting of mapping the environment, including obstacles (to avoid) and objects (to pick later on)
 - A collection phase, in which the robot would used the produced environment map to collect the objects with a robotic arm, placing them on boxes.
 
-<!-- IMAGE: replace the src with your image path, e.g. /assets/images/project1.jpg  ![Project 1 Screenshot](/assets/images/project1-placeholder.png) -->
+<img src="/assets/images/cad_hagir.png" alt="CAD Hagir" width="600">
 
 
 <!-- VIDEO (local file): place your .mp4 in /assets/videos/ and update the src -->
