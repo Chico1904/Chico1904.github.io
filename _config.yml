@@ -10,6 +10,9 @@ baseurl: ""
 author:
   name: "Francisco Miranda"
   github: "Chico1904"
+  bio: "(wannabe) Robotics Engineer"
+  avatar: "/assets/images/me.jpg"  
+  email: "franmira2003@gmail.com"
 
 # =============================================
 #   THEME
