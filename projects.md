@@ -20,7 +20,7 @@ Initial idea is to be a simple AMR (Autonomous Mobile Robot) equipped with DC mo
 - Motor model identification and corresponding control
 
 <figure>
-  <img src="/assets/images/cad_hagir.png" alt="HaGIR CAD Design" width="600">
+  <img src="/assets/images/cad_hagir.png" alt="HaGIR CAD Design" width="400">
   <figcaption><em>Fig 1. CAD design of the HaGIR robot.</em></figcaption>
 </figure>
 
