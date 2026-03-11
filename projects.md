@@ -17,7 +17,7 @@ permalink: /projects/
 - **Tech stack:** PyTorch, C++, Matlab, Fusion360
 - **Status:** Ongoing
 - [Finger count detection model]([https://github.com/Chico1904/ICP-Localization](https://github.com/Chico1904/HaGir_CNN))
-- 
+  
 ## Robotics and Autonomous Systems Project Course (DD2419 KTH course)
 
 **Description:** The projected consisted of developing the software for an small robot equiped with several sensors (LIDAR, RGB-D camera, etc) to perform a 2-step operation: 
