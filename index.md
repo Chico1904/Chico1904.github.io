@@ -1,14 +1,20 @@
 ---
-layout: home
-title: "Francisco Miranda" #changes Main title (below top line) and top right word
+layout: single
+title: "Francisco Miranda"
+author_profile: true
 ---
+
+<br>
 
 ## About Me
 
-I am a Robotics graduate with interest in both hardware and software but have been focusing on Computer Vision (3D especially). 
-- Mechanical Engineering at IST (Lisbon)
-- Robotics at KTH (Stockholm)
+I am a Robotics graduate with a passion for both hardware and software, currently focusing on **Computer Vision** (3D especially).
 
-Like to make stuff (currently building my first AMR)
+| | |
+|---|---|
+| 🎓 | BSc in Mechanical Engineering — IST, Lisbon |
+| 🤖 | MSc in Robotics — KTH, Stockholm |
 
-Feel free to reach out at franmira2003@gmail.com! :)
+I like to make things —> currently building my first AMR from scratch.
+
+Feel free to reach out at [franmira2003@gmail.com](mailto:franmira2003@gmail.com)!
