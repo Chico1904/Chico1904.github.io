@@ -41,10 +41,6 @@ Development of the full software stack for a small robot equipped with several s
 - **Exploration phase** — mapping the environment, detecting obstacles (to avoid) and objects (to pick up)
 - **Collection phase** — using the produced map to collect objects with a robotic arm, placing them in boxes
 
-<figure>
-  <img src="/assets/images/cad_hagir.png" alt="DD2419 Robot" width="600">
-  <figcaption><em>Fig 2. Robot used in the DD2419 course.</em></figcaption>
-</figure>
 
 <figure>
   <video width="560" controls>
