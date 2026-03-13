@@ -4,8 +4,6 @@ title: "Francisco Miranda"
 author_profile: true
 ---
 
-<br>
-
 ## About Me
 
 I am a Robotics graduate with a passion for both hardware and software, currently focusing on **Computer Vision** (3D especially).
