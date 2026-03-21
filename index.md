@@ -1,18 +1,47 @@
 ---
-layout: single
+layout: splash
 title: "Francisco Miranda"
-author_profile: true
+classes: wide
 ---
 
-## About Me
+# Francisco Miranda  
+Robotics | 3D Vision | Scene Reconstruction  
+MSc Robotics @ KTH Royal Institute of Technology  
 
-I am a Robotics graduate with a passion for both hardware and software, currently focusing on **Computer Vision** (3D especially).
+<figure style="text-align: center;">
+  <img src="/assets/images/me.jpeg" alt="Francisco Miranda" width="150" style="border-radius: 50%;">
+  <figcaption><em>Francisco Miranda — MSc Robotics @ KTH</em></figcaption>
+</figure>
 
-| | |
-|---|---|
-| 🎓 | BSc in Mechanical Engineering — IST, Lisbon |
-| 🤖 | MSc in Robotics — KTH, Stockholm |
+---
 
-I like to build cool things —> currently building my first AMR from scratch.
+I work on problems at the intersection of **geometry and learning**, focusing on 3D reconstruction, scene understanding, and efficient processing of large-scale visual data.
 
-Feel free to reach out at [franmira2003@gmail.com](mailto:franmira2003@gmail.com)!
+---
+
+## Navigation
+
+- [Projects](./projects)
+- [Research](./research)
+- [CV](./assets/cv.pdf)
+
+---
+
+## Current Work
+
+Building an **Autonomous Mobile Robot (AMR)** from scratch, integrating perception, mapping, and control into a full system.
+
+---
+
+## Interests
+
+- 3D reconstruction and mesh processing  
+- Vision transformers (DINO, representation learning)  
+- Large-scale data pipelines  
+
+---
+
+## Contact
+
+- Email: [franmira2003@gmail.com](mailto:franmira2003@gmail.com)  
+- GitHub: https://github.com/Chico1904  

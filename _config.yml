@@ -3,22 +3,23 @@
 # =============================================
 title: "FM"
 tagline: "(wannabe) Robotics Engineer"
-description: ""
+description: "MSc Robotics @ KTH | 3D Vision & Scene Understanding"
 url: "https://chico1904.github.io"
 baseurl: ""
 
 author:
   name: "Francisco Miranda"
+  avatar: "/assets/images/me.jpeg"
+  bio: "MSc Robotics @ KTH\n3D Vision | Scene Understanding"
+  location: "Stockholm, Sweden"
   github: "Chico1904"
-  bio: "(wannabe) Robotics Engineer"
-  avatar: "/assets/images/me.jpeg"  
   email: "franmira2003@gmail.com"
 
 # =============================================
 #   THEME
 # =============================================
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: "air" #contrast, mint, neon, plum | air, aqua, contrast, dark, dirt, mint, neon, plum, sunrise
+minimal_mistakes_skin: "air" # contrast, mint, neon, plum | air, aqua, contrast, dark, dirt, mint, neon, plum, sunrise
 
 # =============================================
 #   PLUGINS
@@ -34,11 +35,13 @@ plugins:
 #   DEFAULTS
 # =============================================
 defaults:
+  # Pages: About, Projects, Research
   - scope:
       path: ""
       type: pages
     values:
-      layout: single
+      layout: single   # normal page layout (no splash)
+      classes: wide   # full-width content
       author_profile: true
 
 # =============================================
