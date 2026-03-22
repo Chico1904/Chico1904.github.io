@@ -1,5 +1,5 @@
 # =============================================
-#   SITE SETTINGS
+#   SITE SETTINGS - run   bundle exec jekyll serve
 # =============================================
 title: "FM"
 tagline: "(wannabe) Robotics Engineer"
@@ -12,8 +12,23 @@ author:
   avatar: "/assets/images/me.jpeg"
   bio: "MSc Robotics @ KTH\n3D Vision | Scene Understanding"
   location: "Stockholm, Sweden"
-  github: "Chico1904"
   email: "franmira2003@gmail.com"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:franmira2003@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Chico1904"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ffmiranda/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/francisco_bfm"
+    - label: "CV"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "/assets/CV.pdf"
 
 # =============================================
 #   THEME
