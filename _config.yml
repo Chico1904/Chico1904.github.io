@@ -10,11 +10,10 @@ baseurl: ""
 author:
   name: "Francisco Miranda"
   avatar: "/assets/images/me.jpeg"
-  bio: "MSc Robotics @ KTH\n3D Vision | Scene Understanding"
+  bio: "MSc Robotics @ KTH"
   location: "Stockholm, Sweden"
-  email: "franmira2003@gmail.com"
   links:
-    - label: "Email"
+    - label: "franmira2003@gmail.com"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:franmira2003@gmail.com"
     - label: "GitHub"
@@ -34,7 +33,7 @@ author:
 #   THEME
 # =============================================
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: "air" # contrast, mint, neon, plum | air, aqua, contrast, dark, dirt, mint, neon, plum, sunrise
+minimal_mistakes_skin: "dirt" #  air, aqua, !contrast, dark, !dirt, mint, neon, plum, sunrise
 
 # =============================================
 #   PLUGINS
