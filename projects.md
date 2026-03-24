@@ -45,8 +45,8 @@ Autonomous Mobile Robot (AMR) controlled via hand gestures. A vision model detec
 - Finger count detection (vision model)
 - Motor modeling and control
 
-<figure>
-  <img src="/assets/images/cad_hagir.png" alt="HaGIR CAD Design" width="420">
+<figure style="width: 420px;">
+  <img src="/assets/images/cad_hagir.png" alt="HaGIR CAD Design" style="width: 100%;">
   <figcaption><em>CAD design of the HaGIR robot.</em></figcaption>
 </figure>
 
