@@ -39,13 +39,20 @@ author_profile: true
 
 <div class="fm-section">
   <h2></h2>
-  <p>
-  Hey, I'm Francisco and I am in the last year of my Robotics degree. I am passionate about everything related to robotics (hardware and software) but have a strong interest
-  in computer vision (especially 3D). As for academic background: <br><br>
+  <div style="overflow: hidden;">
+    <img src="/assets/images/me.jpeg" 
+         alt="Francisco" 
+         style="float: right; margin: 0 0 1rem 1.5rem; width: 200px; border-radius: 8px;">
+    <p>
+      Hey, I'm Francisco and I am in the last year of my Robotics degree. I am interested about everything related to robotics (hardware and software) but very keen on computer vision (especially 3D).
+    </p>
+  </div>
+</div>
 
-  </p>
 
-  <table>
+<div class="fm-section">
+  <h2>Academic Background</h2>
+    <table>
     <thead>
       <tr>
         <th>Degree</th>
@@ -73,7 +80,7 @@ author_profile: true
 
 <div class="fm-section">
   <h2>Current Work</h2>
-  <p> Currently at Ericsson doing my MSc Thesis in 3D Computer Vision </p>
+  <p> @ Ericsson doing my MSc Thesis in 3D Computer Vision </p>
 </div>
 
 <div class="fm-section">

@@ -9,7 +9,7 @@ baseurl: ""
 
 author:
   name: "Francisco Miranda"
-  avatar: "/assets/images/me.jpeg"
+  #avatar: "/assets/images/me.jpeg"
   bio: "MSc Robotics @ KTH"
   location: "Stockholm, Sweden"
   links:
