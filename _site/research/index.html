@@ -291,7 +291,32 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <p>Soon …</p>
+        <h2 id="alars-research-project-project-page">ALARS Research Project (<a href="https://www.digitalfutures.kth.se/project/alars-aerial-launch-and-recovery-system-for-autonomous-underwater-vehicles/">Project Page</a>)</h2>
+
+<h3 id="overview">Overview</h3>
+<p>The ALARS (Aerial Launch and Recovery System for Autonomous Underwater Vehicles) project investigates a drone-based solution for autonomous AUV recovery in maritime environments. Traditional methods rely on large vessels and manual handling, which are costly and risk-prone.</p>
+
+<h3 id="key-contributions">Key Contributions</h3>
+<ul>
+  <li>Designed and evaluated search planning strategies for efficient AUV localization</li>
+  <li>Developed a hybrid YOLO–Canny pipeline for AUV detection and orientation estimation</li>
+  <li>Validated performance in real-world field tests</li>
+</ul>
+
+<h3 id="search-planning">Search Planning</h3>
+<p>Explored alternative search planning algorithms to improve efficiency and robustness over non-informative strategies (e.g., spiral)</p>
+
+<p><a href="/assets/rp_report.pdf">Project Report</a></p>
+
+<h3 id="auv-detection">AUV Detection</h3>
+<p>Developed a hybrid detection pipeline combining YOLO for buoy detection with Canny edge detection for AUV head localization and orientation estimation. This enables reliable alignment during recovery, accounting for the cable-connected buoy.</p>
+
+<figure>
+  <video width="560" controls="">
+    <source src="/assets/videos/rp_demo1.mp4" type="video/mp4" />
+  </video>
+  <figcaption><em>YOLO–Canny detection pipeline during field testing.</em></figcaption>
+</figure>
 
         
       </section>
